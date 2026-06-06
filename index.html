@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$PAWCUP | Paw Cup Trophy - Official Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Inter:wght@400;500;600&display=swap');
+.hero {
+
+    background-image: url('"C:\Users\lenovo1\Downloads\image (2).webp"');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+        :root {
+            --gold: #FFD700;
+            --dark: #0a0a0a;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #000;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        .nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(10,10,10,0.98);
+            z-index: 1000;
+            padding: 1.2rem 6%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 3px solid var(--gold);
+        }
+
+        .logo {
+            font-family: 'Goldman', sans-serif;
+            font-size: 2.2rem;
+            color: var(--gold);
+            font-weight: 700;
+        }
+
+        .nav-links a {
+            color: #fff;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--gold);
+        }
+
+        .hero {
+            height: 100vh;
+            background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)), 
+                        url('https://imgur.com/a/tUn5fX7') center/cover no-repeat fixed;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero-content h1 {
+            font-family: 'Goldman', sans-serif;
+            font-size: 5.5rem;
+            color: var(--gold);
+            text-shadow: 0 0 60px #FFD700;
+            margin-bottom: 1rem;
+        }
+
+        .hero-content p {
+            font-size: 1.6rem;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+        }
+
+        .btn {
+            padding: 16px 40px;
+            font-size: 1.2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px;
+            transition: 0.4s;
+        }
+
+        .btn-gold {
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            color: #000;
+        }
+
+        .btn-gold:hover {
+            transform: scale(1.08);
+            box-shadow: 0 0 40px #FFD700;
+        }
+
+        section {
+            padding: 100px 6%;
+        }
+
+        .section-title {
+            font-family: 'Goldman', sans-serif;
+            font-size: 3.2rem;
+            text-align: center;
+            color: var(--gold);
+            margin-bottom: 4rem;
+        }
+
+        .card {
+            background: rgba(255, 215, 0, 0.08);
+            border: 2px solid var(--gold);
+            border-radius: 20px;
+            padding: 2.5rem;
+            transition: 0.4s;
+        }
+
+        .card:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 20px 40px rgba(255, 215, 0, 0.3);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .video-container {
+            max-width: 900px;
+            margin: 3rem auto;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 0 50px rgba(255, 215, 0, 0.6);
+        }
+
+        footer {
+            background: #000;
+            text-align: center;
+            padding: 4rem 6%;
+            border-top: 3px solid var(--gold);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="nav">
+        <div class="logo">$PAWCUP</div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#video">The Champion</a>
+            <a href="#tokenomics">Tokenomics</a>
+            <a href="#roadmap">Roadmap</a>
+            <a href="#whitepaper">Whitepaper</a>
+            <a href="#community">Community</a>
+        </div>
+        <a href="https://x.com/PawCupTrophy" target="_blank" class="btn" style="background:transparent; border:2px solid #FFD700; color:#FFD700; padding:10px 25px;">
+            <i class="fab fa-x-twitter"></i> 
+        </a>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>$PAWCUP</h1>
+            <p><strong>The Legendary Cat Who Slept on the Paw Cup Trophy</strong></p>
+            <p style="font-size:1.3rem; opacity:0.9;">A memecoin built on vibes, resilience, and unbreakable community strength.</p>
+            
+            <div style="margin: 2rem 0;">
+                <a href="#" onclick="alert('🚀 Fair Launch on Solana Coming Soon!')" class="btn btn-gold">BUY $PAWCUP</a>
+                <a href="#community" class="btn" style="background:transparent; border:2px solid #FFD700; color:#FFD700;">Join Community</a>
+            </div>
+            
+            <p style="font-family:monospace; background:rgba(255,215,0,0.1); padding:12px 30px; border-radius:50px; display:inline-block;">
+                Contract: <span style="color:var(--gold);">TBA - Fair Launch</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" style="background:#0f0f0f;">
+        <h2 class="section-title">THE LEGEND</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>🐱 Origin Story</h3>
+                <p>While the world was busy running, one white cat simply slept on the most prestigious trophy in football — and became champion without lifting a paw.</p>
+                <p><strong>$PAWCUP represents calm confidence, meme culture, and long-term vision.</strong></p>
+            </div>
+            <div class="card">
+                <h3>💎 Why $PAWCUP?</h3>
+                <ul style="text-align:left; line-height:2;">
+                    <li>Strong &amp; Active Community</li>
+                    <li>Zero Tax on Transactions</li>
+                    <li>Fair Launch Philosophy</li>
+                    <li>Real Utility &amp; Entertainment</li>
+                    <li>Long-term Holders Rewarded</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video -->
+    <section id="video" style="https://youtube.com/shorts/1d_N7NHI694?si=QN78jpGftbJOoVYB;">
+        <h2 class="section-title">THE CHAMPION IN ACTION 🐾⚽</h2>
+        <div class="video-container">
+            <video autoplay loop muted playsinline preload="metadata" poster="https://youtube.com/shorts/1d_N7NHI694?si=QN78jpGftbJOoVYB style="width:100%;">
+                <source src="https://assets.mixkit.co/videos/preview/342/342-large.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+<video id="pawVideo" 
+       autoplay 
+       loop 
+       muted 
+       playsinline 
+       preload="metadata"
+       poster="https://i.ibb.co.com/9chIU/image-2.jpg"
+       style="width:100%; max-height:520px; border-radius:15px;">
+    <source src="C:\Users\lenovo1\Downloads\15830886-hd_1080_1920_30fps.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+    <!-- Tokenomics -->
+    <section id="tokenomics" style="background:#0a0a0a;">
+        <h2 class="section-title">TOKENOMICS</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Total Supply</h3>
+                <h1 style="color:var(--gold); font-size:3 rem;">1,000,000,000</h1>
+                <p>$PAWCUP</p>
+            </div>
+            <div class="card">
+                <h3>Distribution</h3>
+                <p><strong>50%</strong> Liquidity Pool<br>
+                   <strong>25%</strong> Marketing &amp; Growth<br>
+                   <strong>15%</strong> CEX Listings &amp; Partnerships<br>
+                   <strong>10%</strong> Team (Locked 12 Months)</p>
+            </div>
+            <div class="card">
+                <h3>Transaction Tax</h3>
+                <h1 style="color:var(--gold); font-size:4rem;">0%</h1>
+                <p>Pure &amp; Clean Trading</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap -->
+    <section id="roadmap" style="background:#0f0f0f;">
+        <h2 class="section-title">ROADMAP</h2>
+        <div class="grid">
+            <div class="card"><h3>Phase 1</h3><p>Website Launch<br>Community Building<br>Fair Launch on Raydium</p></div>
+            <div class="card"><h3>Phase 2</h3><p>Viral Marketing<br>Influencer Partnerships<br>Trending on X &amp; DexScreener</p></div>
+            <div class="card"><h3>Phase 3</h3><p>CEX Listings<br>NFT Collection<br>Paw Cup Game</p></div>
+            <div class="card"><h3>Phase 4</h3><p>Global Dominance<br>Charity Events<br>Real World Integration</p></div>
+        </div>
+    </section>
+
+    <!-- Community -->
+    <section id="community" style="background:#111; text-align:center;">
+        <h2 class="section-title">STRONG &amp; SOLID COMMUNITY</h2>
+        <p style="font-size:1.5rem; max-width:800px; margin:0 auto 3rem;">
+            Thousands of diamond-handed holders who believe in the power of memes, fun, and long-term vision.
+        </p>
+        <div style="font-size:3.5rem; margin:2rem 0;">
+            <a href="https://x.com/PawCupTrophy" target="_blank" style="color:#FFD700; margin:0 30px;"><i class="fab fa-x-twitter"></i></a>
+            <a href="#" target="_blank" style="color:#00B2FF; margin:0 30px;"><i class="fab fa-telegram-plane"></i></a>
+            <a href="#" target="_blank" style="color:#5865F2; margin:0 30px;"><i class="fab fa-discord"></i></a>
+        </div>
+        <p><strong>Join now and be part of the legend.</strong></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p style="font-size:1.1rem;">$PAWCUP — Sleep Like a Champion • Moon Like a Legend</p>
+        <p style="margin-top:15px; opacity:0.7;">© 2026 Paw Cup Trophy • Not Financial Advice • DYOR</p>
+    </footer>
+
+    <script>
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                if (this.getAttribute('href') !== '#') {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
